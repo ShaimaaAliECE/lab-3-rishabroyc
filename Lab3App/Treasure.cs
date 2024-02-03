@@ -20,6 +20,7 @@ namespace Lab3App
             base.AddMe(collection);
             board.UpdateTotalScore(Score);
             Console.WriteLine("Total Score is updated to: " + board.TotalScore);
+            
         }
     }
 

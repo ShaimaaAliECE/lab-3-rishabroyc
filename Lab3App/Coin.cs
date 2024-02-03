@@ -18,6 +18,7 @@ namespace Lab3App
         {
             base.AddMe(collection);
             board.UpdateTotalValue(Value);
+            Console.WriteLine("Total Value is updated to: " + board.TotalValue);
         }
 
         public override void Display()

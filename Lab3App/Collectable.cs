@@ -22,7 +22,7 @@ namespace Lab3App
         public virtual void AddMe(List<Collectable> collection)
         {
             collection.Add(this);
-            Console.WriteLine($"{Description} collected, Congrats!!!");
+            Console.WriteLine($"{Description} collected, Congrats!!!!");
         }
 
         public abstract void Display();
